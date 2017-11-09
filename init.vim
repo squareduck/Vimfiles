@@ -57,6 +57,7 @@
 " Just a reference for useful native commands
 "
 " ## Window
+"
 " <C-w>q : close current window
 " <C-w>o : close all windows except current
 " <C-w>= : resize all windows equally
@@ -102,10 +103,11 @@ Plug 'junegunn/vim-easy-align'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-surround'
 "
 " # Languages
 "
-Plug 'HerringtonDarkholme/yats.vim'
+Plug 'leafgarland/typescript-vim'
 Plug 'mhartington/nvim-typescript'
 "
 call plug#end()
