@@ -107,7 +107,7 @@ Plug 'tpope/vim-surround'
 "
 " # Languages
 "
-Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript'
 "
 call plug#end()
@@ -351,7 +351,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 "
 " # nerdtree
 "
-nnoremap <silent> <leader>t :NERDTreeToggle<cr>
+nnoremap <silent> <leader>ft :NERDTreeToggle<cr>
 nnoremap <silent> <space>t :NERDTreeToggle<cr>
 "
 " LeaderF
